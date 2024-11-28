@@ -7,8 +7,8 @@ highlighter: rouge
 # relative_permalinks: true
 
 # Setup
-title:            "Maaha's blog"
-tagline:          ''
+title:            "Second Brain"
+tagline:          'Tracking everything I learn'
 description:      ''
 url:              https://maahma.github.io/
 baseurl:          ''
