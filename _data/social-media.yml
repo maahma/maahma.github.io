@@ -1,0 +1,17 @@
+email:
+  id: 'maahaahmad99@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+linkedin:
+  id: 'Maaha Ahmad'
+  href: 'https://www.linkedin.com/in/maaha-ahmad/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'
+
+github:
+  id: 'maahma'
+  href: 'https://github.com/maahma'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
