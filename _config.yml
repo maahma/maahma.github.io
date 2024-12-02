@@ -7,9 +7,9 @@ highlighter: rouge
 # relative_permalinks: true
 
 # Setup
-title:            "Maaha Ahmad"
-tagline:          'Tracking everything I learn'
-description:      ''
+title:            "maahma"
+tagline:          'maahma.github.io'
+description:      'Tracking everything I learn'
 url:              https://maahma.github.io/
 baseurl:          ''
 
