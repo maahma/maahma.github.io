@@ -1,3 +1,9 @@
+<!-- 
+Uses a loop to display the posts
+Uses pagination to ensure that only a limited number of posts are displayed per page
+Extracts and displays a summary or excerpt of each post
+-->
+
 <div class="posts">
     <ul class="post-list">
     {% for post in paginator.posts %}
