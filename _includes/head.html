@@ -71,19 +71,19 @@ Optionally including Google Analytics and MathJax.
 
   {% if page.custom_js %}
     {% for js_file in page.custom_js %}
-    <script type="text/javascript" src="{{ '/' | relative_url }}/public/js/{{ js_file }}.js"></script>
+    <script type="text/javascript" src="{{ '/assets/css/style.css' | relative_url }}/public/js/{{ js_file }}.js"></script>
     {% endfor %}
   {% endif %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ '/' | relative_url }}/public/css/poole.css">
-  <link rel="stylesheet" href="{{ '/' | relative_url }}/public/css/syntax.css">
-  <link rel="stylesheet" href="{{ '/' | relative_url }}/public/css/hyde.css">
-  <link rel="stylesheet" href="{{ '/' | relative_url }}/public/css/my-styles.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}/public/css/hyde.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}/public/css/my-styles.css">
 
   {% if page.custom_css %}
     {% for stylesheet in page.custom_css %}
-    <link rel="stylesheet" href="{{ '/' | relative_url }}/public/css/{{ stylesheet }}.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}/public/css/{{ stylesheet }}.css">
     {% endfor %}
   {% endif %}
 
@@ -91,9 +91,9 @@ Optionally including Google Analytics and MathJax.
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/' | relative_url }}/public/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/css/style.css' | relative_url }}/public/apple-touch-icon-144-precomposed.png">
   -->
-  <link rel="shortcut icon" href="{{ '/' | relative_url }}/public/favicon.ico">
+  <link rel="shortcut icon" href="{{ '/assets/css/style.css' | relative_url }}/public/favicon.ico">
 
 
   <!-- RSS -->
